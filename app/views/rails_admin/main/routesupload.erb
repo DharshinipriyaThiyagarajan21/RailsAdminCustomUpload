@@ -1,0 +1,10 @@
+<h1>Upload file</h1>
+
+<%= form_for :file do |f| %>
+	<div class="form-group">
+	<%= f.label :file %>
+	<%= f.file_field :file_xls %>
+	</div>
+	
+	<%= f.submit "Upload" %>
+<% end %>
